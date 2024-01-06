@@ -1,355 +1,351 @@
 # Superscripts and subscripts package
 
-name: supersubscript 
+name: supersubscript
 parent: default
 
 matches:
 
   # superscripts
 
-  - trigger: ":hi0:"
-    replace: "⁰"
+  # - trigger: ":hi0:"
+  #   replace: "⁰"
 
-  - trigger: ":hi1:"
-    replace: "¹"
+  # - trigger: ":hi1:"
+  #   replace: "¹"
 
-  - trigger: ":hi2:"
-    replace: "²"
+  # - trigger: ":hi2:"
+  #   replace: "²"
 
-  - trigger: ":hi3:"
-    replace: "³"
+  # - trigger: ":hi3:"
+  #   replace: "³"
 
-  - trigger: ":hi4:"
-    replace: "⁴"
+  # - trigger: ":hi4:"
+  #   replace: "⁴"
 
-  - trigger: ":hi5:"
-    replace: "⁵"
+  # - trigger: ":hi5:"
+  #   replace: "⁵"
 
-  - trigger: ":hi6:"
-    replace: "⁶"
+  # - trigger: ":hi6:"
+  #   replace: "⁶"
 
-  - trigger: ":hi7:"
-    replace: "⁷"
+  # - trigger: ":hi7:"
+  #   replace: "⁷"
 
-  - trigger: ":hi8:"
-    replace: "⁸"
+  # - trigger: ":hi8:"
+  #   replace: "⁸"
 
-  - trigger: ":hi9:"
-    replace: "⁹"
+  # - trigger: ":hi9:"
+  #   replace: "⁹"
 
-  - trigger: ":hi+:"
-    replace: "⁺"
+  # - trigger: ":hi+:"
+  #   replace: "⁺"
 
-  - trigger: ":hi-:"
-    replace: "⁻"
+  # - trigger: ":hi-:"
+  #   replace: "⁻"
     
-  - trigger: ":hi=:"
-    replace: "⁼"
+  # - trigger: ":hi=:"
+  #   replace: "⁼"
 
-  - trigger: ":hi(:"
-    replace: "⁽"
+  # - trigger: ":hi(:"
+  #   replace: "⁽"
 
-  - trigger: ":hi):"
-    replace: "⁾"
+  # - trigger: ":hi):"
+  #   replace: "⁾"
 
-  - trigger: ":hiA:"
-    replace: "ᴬ"
+  # - trigger: ":hiA:"
+  #   replace: "ᴬ"
 
-  - trigger: ":hiAE:"
-    replace: "ᴭ"
+  # - trigger: ":hiAE:"
+  #   replace: "ᴭ"
 
-  - trigger: ":hiB:"
-    replace: "ᴮ"
+  # - trigger: ":hiB:"
+  #   replace: "ᴮ"
 
-  - trigger: ":hiD:"
-    replace: "ᴰ"
+  # - trigger: ":hiD:"
+  #   replace: "ᴰ"
 
-  - trigger: ":hiE:"
-    replace: "ᴱ"
+  # - trigger: ":hiE:"
+  #   replace: "ᴱ"
 
-  - trigger: ":hi_reverseE:"
-    replace: "ᴲ"
+  # - trigger: ":hi_reverseE:"
+  #   replace: "ᴲ"
 
-  - trigger: ":hiG:"
-    replace: "ᴳ"
+  # - trigger: ":hiG:"
+  #   replace: "ᴳ"
 
-  - trigger: ":hiH:"
-    replace: "ᴴ"
+  # - trigger: ":hiH:"
+  #   replace: "ᴴ"
 
-  - trigger: ":hiI:"
-    replace: "ᴵ"
+  # - trigger: ":hiI:"
+  #   replace: "ᴵ"
 
-  - trigger: ":hiJ:"
-    replace: "ᴶ"
+  # - trigger: ":hiJ:"
+  #   replace: "ᴶ"
 
-  - trigger: ":hiK:"
-    replace: "ᴷ"
+  # - trigger: ":hiK:"
+  #   replace: "ᴷ"
 
-  - trigger: ":hiL:"
-    replace: "ᴸ"
+  # - trigger: ":hiL:"
+  #   replace: "ᴸ"
 
-  - trigger: ":hiM:"
-    replace: "ᴹ"
+  # - trigger: ":hiM:"
+  #   replace: "ᴹ"
 
-  - trigger: ":hiN:"
-    replace: "ᴺ"
+  # - trigger: ":hiN:"
+  #   replace: "ᴺ"
 
-  - trigger: ":hi_reverseN:"
-    replace: "ᴻ"
+  # - trigger: ":hi_reverseN:"
+  #   replace: "ᴻ"
 
-  - trigger: ":hiO:"
-    replace: "ᴼ"
+  # - trigger: ":hiO:"
+  #   replace: "ᴼ"
 
-  - trigger: ":hiOu:"
-    replace: "ᴽ"
+  # - trigger: ":hiOu:"
+  #   replace: "ᴽ"
 
-  - trigger: ":hiP:"
-    replace: "ᴾ"
+  # - trigger: ":hiP:"
+  #   replace: "ᴾ"
 
-  - trigger: ":hiR:"
-    replace: "ᴿ"
+  # - trigger: ":hiR:"
+  #   replace: "ᴿ"
 
-  - trigger: ":hiT:"
-    replace: "ᵀ"
+  # - trigger: ":hiT:"
+  #   replace: "ᵀ"
 
-  - trigger: ":hiU:"
-    replace: "ᵁ"
+  # - trigger: ":hiU:"
+  #   replace: "ᵁ"
 
-  - trigger: ":hiW:"
-    replace: "ᵂ"
+  # - trigger: ":hiW:"
+  #   replace: "ᵂ"
 
-  - trigger: ":hia:"
-    replace: "ᵃ"
+  # - trigger: ":hia:"
+  #   replace: "ᵃ"
 
-  - trigger: ":hi_turneda:"
-    replace: "ᵄ"
+  # - trigger: ":hi_turneda:"
+  #   replace: "ᵄ"
 
-  - trigger: ":hiAlpha:"
-    replace: "ᵅ"
+  # - trigger: ":hiAlpha:"
+  #   replace: "ᵅ"
 
-  - trigger: ":hi_turnedae:"
-    replace: "ᵆ"
+  # - trigger: ":hi_turnedae:"
+  #   replace: "ᵆ"
 
-  - trigger: ":hib:"
-    replace: "ᵇ"
+  # - trigger: ":hib:"
+  #   replace: "ᵇ"
 
-  - trigger: ":hid:"
-    replace: "ᵈ"
+  # - trigger: ":hid:"
+  #   replace: "ᵈ"
 
-  - trigger: ":hie:"
-    replace: "ᵉ"
+  # - trigger: ":hie:"
+  #   replace: "ᵉ"
 
-  - trigger: ":hiSchwa:"
-    replace: "ᵊ"
+  # - trigger: ":hiSchwa:"
+  #   replace: "ᵊ"
 
-  - trigger: ":hi_opene:"
-    replace: "ᵋ"
+  # - trigger: ":hi_opene:"
+  #   replace: "ᵋ"
 
-  - trigger: ":hi_turnedopene:"
-    replace: "ᵌ"
+  # - trigger: ":hi_turnedopene:"
+  #   replace: "ᵌ"
 
-  - trigger: ":hig:"
-    replace: "ᵍ"
+  # - trigger: ":hig:"
+  #   replace: "ᵍ"
 
-  - trigger: ":hii:"
-    replace: "ⁱ"
+  # - trigger: ":hii:"
+  #   replace: "ⁱ"
 
-  - trigger: ":hi_turnedi:"
-    replace: "ᵎ"
+  # - trigger: ":hi_turnedi:"
+  #   replace: "ᵎ"
 
-  - trigger: ":hik:"
-    replace: "ᵏ"
+  # - trigger: ":hik:"
+  #   replace: "ᵏ"
 
-  - trigger: ":him:"
-    replace: "ᵐ"
+  # - trigger: ":him:"
+  #   replace: "ᵐ"
 
-  - trigger: ":hi_turnedm:"
-    replace: "ᵚ"
+  # - trigger: ":hi_turnedm:"
+  #   replace: "ᵚ"
 
-  - trigger: ":hin:"
-    replace: "ⁿ"
+  # - trigger: ":hin:"
+  #   replace: "ⁿ"
 
-  - trigger: ":hiEng:"
-    replace: "ᵑ"
+  # - trigger: ":hiEng:"
+  #   replace: "ᵑ"
 
-  - trigger: ":hio:"
-    replace: "ᵒ"
+  # - trigger: ":hio:"
+  #   replace: "ᵒ"
 
-  - trigger: ":hi_turnedc:"
-    replace: "ᵓ"
+  # - trigger: ":hi_turnedc:"
+  #   replace: "ᵓ"
 
-  - trigger: ":hi_topo:"
-    replace: "ᵔ"
+  # - trigger: ":hi_topo:"
+  #   replace: "ᵔ"
 
-  - trigger: ":hi_bottomo:"
-    replace: "ᵕ"
+  # - trigger: ":hi_bottomo:"
+  #   replace: "ᵕ"
 
-  - trigger: ":hip:"
-    replace: "ᵖ"
+  # - trigger: ":hip:"
+  #   replace: "ᵖ"
 
-  - trigger: ":hit:"
-    replace: "ᵗ"
+  # - trigger: ":hit:"
+  #   replace: "ᵗ"
 
-  - trigger: ":hiu:"
-    replace: "ᵘ"
+  # - trigger: ":hiu:"
+  #   replace: "ᵘ"
 
-  - trigger: ":hi_sidewaysu:"
-    replace: "ᵙ"
+  # - trigger: ":hi_sidewaysu:"
+  #   replace: "ᵙ"
 
-  - trigger: ":hiv:"
-    replace: "ᵛ"
+  # - trigger: ":hiv:"
+  #   replace: "ᵛ"
 
-  - trigger: ":hiAin:"
-    replace: "ᵜ"
+  # - trigger: ":hiAin:"
+  #   replace: "ᵜ"
 
-  - trigger: ":hiBeta:"
-    replace: "ᵝ"
+  # - trigger: ":hiBeta:"
+  #   replace: "ᵝ"
 
-  - trigger: ":hiDelta:"
-    replace: "ᵟ"
+  # - trigger: ":hiDelta:"
+  #   replace: "ᵟ"
 
-  - trigger: ":hiPhi:"
-    replace: "ᵠ"
+  # - trigger: ":hiPhi:"
+  #   replace: "ᵠ"
 
-  - trigger: ":hiChi:"
-    replace: "ᵡ"
+  # - trigger: ":hiChi:"
+  #   replace: "ᵡ"
 
 
-  # subscripts
+  # # subscripts
 
-  - trigger: "_0"
-    replace: "₀"
+  # - trigger: "_0"
+  #   replace: "₀"
 
-  - trigger: "_1"
-    replace: "₁"
+  # - trigger: "_1"
+  #   replace: "₁"
 
-  - trigger: "_2"
-    replace: "₂"
+  # - trigger: "_2"
+  #   replace: "₂"
 
-  - trigger: "_3"
-    replace: "₃"
+  # - trigger: "_3"
+  #   replace: "₃"
 
-  - trigger: "_4"
-    replace: "₄"
+  # - trigger: "_4"
+  #   replace: "₄"
 
-  - trigger: "_5"
-    replace: "₅"
+  # - trigger: "_5"
+  #   replace: "₅"
 
-  - trigger: "_6"
-    replace: "₆"
+  # - trigger: "_6"
+  #   replace: "₆"
 
-  - trigger: "_7"
-    replace: "₇"
+  # - trigger: "_7"
+  #   replace: "₇"
 
-  - trigger: "_8"
-    replace: "₈"
+  # - trigger: "_8"
+  #   replace: "₈"
 
-  - trigger: "_9"
-    replace: "₉"
+  # - trigger: "_9"
+  #   replace: "₉"
 
-  - trigger: "_+"
-    replace: "₊"
+  # - trigger: "_+"
+  #   replace: "₊"
 
-  - trigger: "_-"
-    replace: "₋"
+  # - trigger: "_-"
+  #   replace: "₋"
 
-  - trigger: "_="
-    replace: "₌"
+  # - trigger: "_="
+  #   replace: "₌"
 
-  - trigger: "_("
-    replace: "₍"
+  # - trigger: "_("
+  #   replace: "₍"
 
-  - trigger: "_)"
-    replace: "₎"
+  # - trigger: "_)"
+  #   replace: "₎"
 
-  - trigger: "_a"
-    replace: "ₐ"
+  # - trigger: "_a"
+  #   replace: "ₐ"
 
-  - trigger: "_e"
-    replace: "ₑ"
+  # - trigger: "_e"
+  #   replace: "ₑ"
 
-  - trigger: "_h"
-    replace: "ₕ"
+  # - trigger: "_h"
+  #   replace: "ₕ"
 
-  - trigger: "_i"
-    replace: "ᵢ"
+  # - trigger: "_i"
+  #   replace: "ᵢ"
 
-  - trigger: "_k"
-    replace: "ₖ"
+  # - trigger: "_k"
+  #   replace: "ₖ"
 
-  - trigger: "__l"
-    replace: "ₗ"
+  # - trigger: "__l"
+  #   replace: "ₗ"
 
-  - trigger: "_m"
-    replace: "ₘ"
+  # - trigger: "_m"
+  #   replace: "ₘ"
 
-  - trigger: "_n"
-    replace: "ₙ"
+  # - trigger: "_n"
+  #   replace: "ₙ"
 
-  - trigger: "_o"
-    replace: "ₒ"
+  # - trigger: "_o"
+  #   replace: "ₒ"
 
-  - trigger: "_p"
-    replace: "ₚ"
+  # - trigger: "_p"
+  #   replace: "ₚ"
 
-  - trigger: "_r"
-    replace: "ᵣ"
+  # - trigger: "_r"
+  #   replace: "ᵣ"
 
-  - trigger: "_s"
-    replace: "ₛ"
+  # - trigger: "_s"
+  #   replace: "ₛ"
 
-  - trigger: "_t"
-    replace: "ₜ"
+  # - trigger: "_t"
+  #   replace: "ₜ"
 
-  - trigger: "_u"
-    replace: "ᵤ"
+  # - trigger: "_u"
+  #   replace: "ᵤ"
 
-  - trigger: "_v"
-    replace: "ᵥ"
+  # - trigger: "_v"
+  #   replace: "ᵥ"
 
-  - trigger: "_x"
-    replace: "ₓ"
+  # - trigger: "_x"
+  #   replace: "ₓ"
 
-  - trigger: "_Schwa"
-    replace: "ₔ"
+  # - trigger: "_Schwa"
+  #   replace: "ₔ"
 
-  - trigger: "_Beta"
-    replace: "ᵦ"
+  # - trigger: "_Beta"
+  #   replace: "ᵦ"
 
-  - trigger: "_Chi"
-    replace: "ᵪ"
+  # - trigger: "_Chi"
+  #   replace: "ᵪ"
 
-  - trigger: "_Gamma"
-    replace: "ᵧ"
+  # - trigger: "_Gamma"
+  #   replace: "ᵧ"
 
-  - trigger: "_Phi"
-    replace: "ᵩ"
+  # - trigger: "_Phi"
+  #   replace: "ᵩ"
 
-  - trigger: "_Rho"
-    replace: "ᵨ"
+  # - trigger: "_Rho"
+  #   replace: "ᵨ"
 
-  - trigger: ":gu"
-    replace: "故"
+  # - trigger: ":gu"
+  #   replace: "故"
 
-  - trigger: ":gu"
-    replace: "古"
+  # - trigger: ":gu"
+  #   replace: "古"
 
-  - trigger: ":gu"
-    replace: "谷"
+  # - trigger: ":gu"
+  #   replace: "谷"
 
-  - trigger: ":s:"
-    replace: "š"
+  # - trigger: ":s:"
+  #   replace: "š"
 
-  - trigger: ":c:"
-    replace: "ç"
+  # - trigger: ":c:"
+  #   replace: "ç"
 
-  - trigger: ":a:"
-    replace: "ꜣ"
+  # - trigger: ":a:"
+  #   replace: "ꜣ"
 
-  - trigger: ":o:"
-    replace: "ꜥ"
-
-  - regex: "(code|cd)(all|js)(all|fn)" # Code Category - Javascript Subcategory - Function
-    replace: "function main(){}"
-
+  # - trigger: ":o:"
+  #   replace: "ꜥ"
 

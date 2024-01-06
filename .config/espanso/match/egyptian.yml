@@ -1,0 +1,62 @@
+name: egyptian
+parent: default
+
+matches:
+
+  - { regex: "[þÞ][AÆ]", replace: "𓄿", }
+  - { regex: "[þÞ][i→]", replace: "𓇋", }
+  - { regex: "[þÞ][y»]", replace: "𓏭", }
+  - { regex: "[þÞ][Y›]", replace: "𓇌", }
+  - { regex: "[þÞ][aæ]", replace: "𓂝", }
+  - { regex: "[þÞ][wł]", replace: "𓅱", }
+  - { regex: "[þÞ][b“]", replace: "𓃀", }
+  - { regex: "[þÞ][pþ]", replace: "𓊪", }
+  - { regex: "[þÞ][fđ]", replace: "𓆑", }
+  - { regex: "[þÞ][mµ]", replace: "𓅓", }
+  - { regex: "[þÞ][n”]", replace: "𓈖", }
+  - { regex: "[þÞ][r¶]", replace: "𓂋", }
+  - { regex: "[þÞ][hħ]", replace: "𓉔", }
+  - { regex: "[þÞ][HĦ]", replace: "𓎛", }
+  - { regex: "[þÞ][x«]", replace: "𓐍", }
+  - { regex: "[þÞ][X‹]", replace: "𓄡", }
+  - { regex: "[þÞ][z←]", replace: "𓊃", }
+  - { regex: "[þÞ][sſ]", replace: "𓋴", }
+  - { regex: "[þÞ][Sẞ]", replace: "𓈙", }
+  - { regex: "[þÞ][q@]", replace: "𓈎", }
+  - { regex: "[þÞ][kĸ]", replace: "𓎡", }
+  - { regex: "[þÞ][gŋ]", replace: "𓎼", }
+  - { regex: "[þÞ][tŧ]", replace: "𓏏", }
+  - { regex: "[þÞ][TŦ]", replace: "𓍿", }
+  - { regex: "[þÞ][dð]", replace: "𓂧", }
+  - { regex: "[þÞ][DÐ]", replace: "𓆓", }
+
+  - { regex: "[łŁ][AÆ]", replace: "ꜣ", }
+  - { regex: "[łŁ][i→]", replace: "ı͗", }
+  - { regex: "[łŁ][y»]", replace: "ï", }
+  - { regex: "[łŁ][Y›]", replace: "y", }
+  - { regex: "[łŁ][aæ]", replace: "ꜥ", }
+  - { regex: "[łŁ][wł]", replace: "w", }
+  - { regex: "[łŁ][b“]", replace: "b", }
+  - { regex: "[łŁ][pþ]", replace: "p", }
+  - { regex: "[łŁ][fđ]", replace: "f", }
+  - { regex: "[łŁ][mµ]", replace: "m", }
+  - { regex: "[łŁ][n”]", replace: "n", }
+  - { regex: "[łŁ][r¶]", replace: "r", }
+  - { regex: "[łŁ][hħ]", replace: "h", }
+  - { regex: "[łŁ][HĦ]", replace: "ḥ", }
+  - { regex: "[łŁ][x«]", replace: "ḫ", }
+  - { regex: "[łŁ][X‹]", replace: "ẖ", }
+  - { regex: "[łŁ][z←]", replace: "z", }
+  - { regex: "[łŁ][sſ]", replace: "s", }
+  - { regex: "[łŁ][Sẞ]", replace: "š", }
+  - { regex: "[łŁ][q@]", replace: "q", }
+  - { regex: "[łŁ][kĸ]", replace: "k", }
+  - { regex: "[łŁ][gŋ]", replace: "g", }
+  - { regex: "[łŁ][tŧ]", replace: "t", }
+  - { regex: "[łŁ][TŦ]", replace: "ṯ", }
+  - { regex: "[łŁ][dð]", replace: "d", }
+  - { regex: "[łŁ][DÐ]", replace: "ḏ", }
+
+
+
+
