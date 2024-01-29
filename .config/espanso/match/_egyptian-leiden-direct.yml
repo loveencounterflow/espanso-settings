@@ -1,0 +1,31 @@
+name: egyptian-leiden-direct
+parent: default
+
+matches:
+  - { regex: "A", replace: "ꜣ", }
+  - { regex: "i", replace: "ı͗", }
+  - { regex: "y", replace: "ï", }
+  - { regex: "Y", replace: "y", }
+  - { regex: "a", replace: "ꜥ", }
+  - { regex: "w", replace: "w", }
+  - { regex: "b", replace: "b", }
+  - { regex: "p", replace: "p", }
+  - { regex: "f", replace: "f", }
+  - { regex: "m", replace: "m", }
+  - { regex: "n", replace: "n", }
+  - { regex: "r", replace: "r", }
+  - { regex: "h", replace: "h", }
+  - { regex: "H", replace: "ḥ", }
+  - { regex: "x", replace: "ḫ", }
+  - { regex: "X", replace: "ẖ", }
+  - { regex: "z", replace: "z", }
+  - { regex: "s", replace: "s", }
+  - { regex: "S", replace: "š", }
+  - { regex: "q", replace: "q", }
+  - { regex: "k", replace: "k", }
+  - { regex: "g", replace: "g", }
+  - { regex: "t", replace: "t", }
+  - { regex: "T", replace: "ṯ", }
+  - { regex: "d", replace: "d", }
+  - { regex: "D", replace: "ḏ", }
+  # - { regex: "(?P<letter>[^AÆi→y»Y›aæwłb“pþfđmµn”r¶hħHĦx«X‹z←sſSẞq@kĸgŋtŧTŦdðDÐ])", replace: "{{letter}}", }

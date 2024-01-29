@@ -29,6 +29,35 @@ matches:
   - { regex: "[þÞ][TŦ]", replace: "𓍿", }
   - { regex: "[þÞ][dð]", replace: "𓂧", }
   - { regex: "[þÞ][DÐ]", replace: "𓆓", }
+  - { regex: "[þÞ](?P<letter>[^AÆi→y»Y›aæwłb“pþfđmµn”r¶hħHĦx«X‹z←sſSẞq@kĸgŋtŧTŦdðDÐ])", replace: "{{letter}}", }
+
+#   - { regex: "[AÆ]", replace: "𓄿", }
+#   - { regex: "[i→]", replace: "𓇋", }
+#   - { regex: "[y»]", replace: "𓏭", }
+#   - { regex: "[Y›]", replace: "𓇌", }
+#   - { regex: "[aæ]", replace: "𓂝", }
+#   - { regex: "[wł]", replace: "𓅱", }
+#   - { regex: "[b“]", replace: "𓃀", }
+#   - { regex: "[pþ]", replace: "𓊪", }
+#   - { regex: "[fđ]", replace: "𓆑", }
+#   - { regex: "[mµ]", replace: "𓅓", }
+#   - { regex: "[n”]", replace: "𓈖", }
+#   - { regex: "[r¶]", replace: "𓂋", }
+#   - { regex: "[hħ]", replace: "𓉔", }
+#   - { regex: "[HĦ]", replace: "𓎛", }
+#   - { regex: "[x«]", replace: "𓐍", }
+#   - { regex: "[X‹]", replace: "𓄡", }
+#   - { regex: "[z←]", replace: "𓊃", }
+#   - { regex: "[sſ]", replace: "𓋴", }
+#   - { regex: "[Sẞ]", replace: "𓈙", }
+#   - { regex: "[q@]", replace: "𓈎", }
+#   - { regex: "[kĸ]", replace: "𓎡", }
+#   - { regex: "[gŋ]", replace: "𓎼", }
+#   - { regex: "[tŧ]", replace: "𓏏", }
+#   - { regex: "[TŦ]", replace: "𓍿", }
+#   - { regex: "[dð]", replace: "𓂧", }
+#   - { regex: "[DÐ]", replace: "𓆓", }
+#   # - { regex: "(?P<letter>[^AÆi→y»Y›aæwłb“pþfđmµn”r¶hħHĦx«X‹z←sſSẞq@kĸgŋtŧTŦdðDÐ])", replace: "{{letter}}", }
 
   - { regex: "[łŁ][AÆ]", replace: "ꜣ", }
   - { regex: "[łŁ][i→]", replace: "ı͗", }
@@ -56,6 +85,7 @@ matches:
   - { regex: "[łŁ][TŦ]", replace: "ṯ", }
   - { regex: "[łŁ][dð]", replace: "d", }
   - { regex: "[łŁ][DÐ]", replace: "ḏ", }
+  - { regex: "[łŁ](?P<letter>[^AÆi→y»Y›aæwłb“pþfđmµn”r¶hħHĦx«X‹z←sſSẞq@kĸgŋtŧTŦdðDÐ])", replace: "{{letter}}", }
 
 
 
